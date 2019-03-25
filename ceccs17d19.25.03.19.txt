@@ -1,0 +1,71 @@
+Script started on Monday 25 March 2019 09:21:55 PM IST
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ sftp cs17d19@192.168.0.30
+The authenticity of host '192.168.0.30 (192.168.0.30)' can't be established.
+ECDSA key fingerprint is SHA256:pkLWQEXAwg4Zdh5CXNYydUTPcU7dwDFxyzJnqJ01m/s.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.0.30' (ECDSA) to the list of known hosts.
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d19@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+examples.desktop    
+sftp> put result.txt
+stat result.txt: No such file or directory
+sftp> put result.txt
+Uploading result.txt to /home/cs17d19/result.txt
+result.txt                                                                                                     0%    0     0.0KB/s   --:-- ETAresult.txt                                                                                                   100%   44KB  43.6KB/s   00:00    
+sftp> ls
+examples.desktop    result.txt          
+sftp> mkdir file
+sftp> ls
+examples.desktop    file                result.txt          
+sftp> lls
+ceccs17d19.25.03.19.txt  Desktop  Documents  Downloads	Music  Pictures  Public  result.txt  task1.sh  Templates  Untitled Folder  Videos
+sftp> get result.txt
+Fetching /home/cs17d19/result.txt to result.txt
+/home/cs17d19/result.txt                                                                                       0%    0     0.0KB/s   --:-- ETA/home/cs17d19/result.txt                                                                                     100%   44KB  43.6KB/s   00:00    
+sftp> version
+SFTP protocol version 3
+sftp> help
+Available commands:
+bye                                Quit sftp
+cd path                            Change remote directory to 'path'
+chgrp grp path                     Change group of file 'path' to 'grp'
+chmod mode path                    Change permissions of file 'path' to 'mode'
+chown own path                     Change owner of file 'path' to 'own'
+df [-hi] [path]                    Display statistics for current directory or
+                                   filesystem containing 'path'
+exit                               Quit sftp
+get [-afPpRr] remote [local]       Download file
+reget [-fPpRr] remote [local]      Resume download file
+reput [-fPpRr] [local] remote      Resume upload file
+help                               Display this help text
+lcd path                           Change local directory to 'path'
+lls [ls-options [path]]            Display local directory listing
+lmkdir path                        Create local directory
+ln [-s] oldpath newpath            Link remote file (-s for symlink)
+lpwd                               Print local working directory
+ls [-1afhlnrSt] [path]             Display remote directory listing
+lumask umask                       Set local umask to 'umask'
+mkdir path                         Create remote directory
+progress                           Toggle display of progress meter
+put [-afPpRr] local [remote]       Upload file
+pwd                                Display remote working directory
+quit                               Quit sftp
+rename oldpath newpath             Rename remote file
+rm path                            Delete remote file
+rmdir path                         Remove remote directory
+symlink oldpath newpath            Symlink remote file
+version                            Show SFTP version
+!command                           Execute 'command' in local shell
+!                                  Escape to local shell
+?                                  Synonym for help
+sftp> exit
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Monday 25 March 2019 09:37:05 PM IST
