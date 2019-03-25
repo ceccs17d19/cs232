@@ -3,7 +3,8 @@ Script started on Monday 25 March 2019 09:21:55 PM IST
 The authenticity of host '192.168.0.30 (192.168.0.30)' can't be established.
 ECDSA key fingerprint is SHA256:pkLWQEXAwg4Zdh5CXNYydUTPcU7dwDFxyzJnqJ01m/s.
 Are you sure you want to continue connecting (yes/no)? yes
-Warning: Permanently added '192.168.0.30' (ECDSA) to the list of known hosts.
+Warning: Permanently added '192.168.0.30' (ECDSA) to the list of known hosts.
+
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -14,10 +15,13 @@ Connected to 192.168.0.30.
 sftp> ls
 examples.desktop    
 sftp> put result.txt
-stat result.txt: No such file or directory
+stat result.txt: No such file or directory
+
 sftp> put result.txt
 Uploading result.txt to /home/cs17d19/result.txt
-result.txt                                                                                                     0%    0     0.0KB/s   --:-- ETAresult.txt                                                                                                   100%   44KB  43.6KB/s   00:00    
+
+result.txt                                                                                                     0%    0     0.0KB/s   --:-- ETA
+result.txt                                                                                                   100%   44KB  43.6KB/s   00:00    
 sftp> ls
 examples.desktop    result.txt          
 sftp> mkdir file
@@ -27,7 +31,9 @@ sftp> lls
 ceccs17d19.25.03.19.txt  Desktop  Documents  Downloads	Music  Pictures  Public  result.txt  task1.sh  Templates  Untitled Folder  Videos
 sftp> get result.txt
 Fetching /home/cs17d19/result.txt to result.txt
-/home/cs17d19/result.txt                                                                                       0%    0     0.0KB/s   --:-- ETA/home/cs17d19/result.txt                                                                                     100%   44KB  43.6KB/s   00:00    
+
+/home/cs17d19/result.txt                                                                                       0%    0     0.0KB/s   --:-- ETA
+/home/cs17d19/result.txt                                                                                     100%   44KB  43.6KB/s   00:00    
 sftp> version
 SFTP protocol version 3
 sftp> help
