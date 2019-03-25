@@ -120,7 +120,8 @@ Script started on Monday 25 February 2019 11:05:37 PM IST
 [01;31m[KCHN17CS[m[K118   MA101(B), PH100(A), BE100(A), BE10105(C), BE103(B+), EE100(B+), PH110(O), EE110(O),
 [01;31m[KCHN17CS[m[K119   MA101(F), PH100(C), BE100(F), BE10105(B), BE103(B), EE100(C), PH110(A+), EE110(B+),
 [01;31m[KCHN17CS[m[K120   MA101(F), PH100(F), BE100(F), BE10105(F), BE103(B+), EE100(C), PH110(A), EE110(B+),
-]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ [K]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cat>cs.txt
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ 
+[K]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cat>cs.txt
 CHN17CS001       MA101(A), PH100(B+), BE100(B), BE10105(B+), BE103(B+), EE100(C), PH110(A), EE110(B+),
 CHN17CS002       MA101(A), PH100(B+), BE100(B), BE10105(B+), BE103(A), EE100(B), PH110(B+), EE110(B+),
 CHN17CS003       MA101(B+), PH100(B), BE100(C), BE10105(C), BE103(A+), EE100(C), PH110(B+), EE110(B+),
@@ -1918,8 +1919,10 @@ CHN17CS120   MA101 0, PH100 0, BE100 0, BE10105 0, BE103 8, EE100 6, PH110 8.5, 
 2.875
 2
 1.0625
-]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cat cgpa.txt[2Ps.txtawk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' cs.txt>cgpa.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat cgpa.txt[Kawk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' cs.txt>cgpa.txt
-]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ awk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' cs.txt>cgpa.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat cgpa.txt[K
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cat cgpa.txt[2Ps.txtawk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' cs.txt>cgpa.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat cgpa.txt[Kawk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' cs.txt>cgpa.txt
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ awk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' cs.txt>cgpa.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat cgpa.txt[K
 3.125
 3.0625
 2.75
@@ -2302,7 +2305,8 @@ CHN17CS120   MA101 0, PH100 0, BE100 0, BE10105 0, BE103 8, EE100 6, PH110 8.5, 
 2
 1.0625
 ]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cat cgpa.txtawk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' cs.txt>cgpa.txt[C[C[C
-]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ awk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' cs.txt>cgpa.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat cgpa.txt[K
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ awk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' cs.txt>cgpa.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat cgpa.txt[K
 7.75
 7.875
 7.25
