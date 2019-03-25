@@ -126,7 +126,8 @@ batsman  ceccs17d30.04.02.19  [01;34mDesktop[0m  [01;34mDownloads[0m  file1 
 [01;31m[KCHN17CS[m[K118   MA101(B), PH100(A), BE100(A), BE10105(C), BE103(B+), EE100(B+), PH110(O), EE110(O),
 [01;31m[KCHN17CS[m[K119   MA101(F), PH100(C), BE100(F), BE10105(B), BE103(B), EE100(C), PH110(A+), EE110(B+),
 [01;31m[KCHN17CS[m[K120   MA101(F), PH100(F), BE100(F), BE10105(F), BE103(B+), EE100(C), PH110(A), EE110(B+),
-]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ grep "CHN17CS" result.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K[K[K[K[K[Kcat [K>csd.txt
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ grep "CHN17CS" result.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K[K[K[K[K[Kcat [K>csd.txt
 ^C
 ]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ cat>cs.txt
 CHN17CS001       MA101(A), PH100(B+), BE100(B), BE10105(B+), BE103(B+), EE100(C), PH110(A), EE110(B+),
