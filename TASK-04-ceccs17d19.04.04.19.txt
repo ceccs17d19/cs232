@@ -1,0 +1,61 @@
+Script started on Thursday 04 April 2019 10:02:33 PM IST
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ scp resu[K[K[K[K[K[K[K[Kls
+ceccs17d19.04.04.19.txt  sample.txt
+ceccs17d19.25.03.19.txt  [0m[01;34msnap[0m
+[01;34mDesktop[0m                  TASK-03-ceccs17d19.04.04.19
+[01;34mDocuments[0m                TASK-04-ceccs17d19.04.04.19.txt
+[01;34mDownloads[0m                TASK-04-ceccs17d19.25.03.19
+[01;34mMusic[0m                    TASK-04-ceccs17d19.25.03.19.txt
+[01;34mPictures[0m                 [01;32mtask1.sh[0m
+[01;34mPublic[0m                   [01;34mTemplates[0m
+result.txt               [01;34mUntitled Folder[0m
+s4d.txt                  [01;34mVideos[0m
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ scp result.tct[Kx[K[Kxt cs17d19@192.168.0.30:/home/cs17d19
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d19@192.168.0.30's password: 
+result.txt                                      0%    0     0.0KB/s   --:-- ETAresult.txt                                    100%   44KB  43.6KB/s   00:00    
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ sftp cs17d19@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d19@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+abc.txt             examples.desktop    file                result.txt          
+sample.txt          
+sftp> cat > sample2.txt
+Invalid command.
+sftp> ls
+abc.txt             examples.desktop    file                result.txt          
+sample.txt          
+sftp> exit
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ scp cs17d19@192.168.0.30:/home/cs17d19/abc.txt /home/s4d1
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d19@192.168.0.30's password: 
+abc.txt                                         0%    0     0.0KB/s   --:-- ETAabc.txt                                       100%    8     0.0KB/s   00:00    
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ ls
+abc.txt                  sample.txt
+ceccs17d19.04.04.19.txt  [0m[01;34msnap[0m
+ceccs17d19.25.03.19.txt  TASK-03-ceccs17d19.04.04.19
+[01;34mDesktop[0m                  TASK-04-ceccs17d19.04.04.19.txt
+[01;34mDocuments[0m                TASK-04-ceccs17d19.25.03.19
+[01;34mDownloads[0m                TASK-04-ceccs17d19.25.03.19.txt
+[01;34mMusic[0m                    [01;32mtask1.sh[0m
+[01;34mPictures[0m                 [01;34mTemplates[0m
+[01;34mPublic[0m                   [01;34mUntitled Folder[0m
+result.txt               [01;34mVideos[0m
+s4d.txt
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ [K]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thursday 04 April 2019 10:31:51 PM IST
