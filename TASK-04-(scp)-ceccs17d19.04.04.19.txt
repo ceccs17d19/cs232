@@ -17,7 +17,9 @@ s4d.txt                  [01;34mVideos[0m
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs17d19@192.168.0.30's password: 
-result.txt                                      0%    0     0.0KB/s   --:-- ETAresult.txt                                    100%   44KB  43.6KB/s   00:00    
+
+result.txt                                      0%    0     0.0KB/s   --:-- ETA
+result.txt                                    100%   44KB  43.6KB/s   00:00    
 ]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ sftp cs17d19@192.168.0.30
 .
               |
@@ -30,7 +32,8 @@ sftp> ls
 abc.txt             examples.desktop    file                result.txt          
 sample.txt          
 sftp> cat > sample2.txt
-Invalid command.
+Invalid command.
+
 sftp> ls
 abc.txt             examples.desktop    file                result.txt          
 sample.txt          
@@ -42,7 +45,9 @@ sftp> exit
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs17d19@192.168.0.30's password: 
-abc.txt                                         0%    0     0.0KB/s   --:-- ETAabc.txt                                       100%    8     0.0KB/s   00:00    
+
+abc.txt                                         0%    0     0.0KB/s   --:-- ETA
+abc.txt                                       100%    8     0.0KB/s   00:00    
 ]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ ls
 abc.txt                  sample.txt
 ceccs17d19.04.04.19.txt  [0m[01;34msnap[0m
@@ -55,7 +60,8 @@ ceccs17d19.25.03.19.txt  TASK-03-ceccs17d19.04.04.19
 [01;34mPublic[0m                   [01;34mUntitled Folder[0m
 result.txt               [01;34mVideos[0m
 s4d.txt
-]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ [K]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ exit
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ 
+[K]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ exit
 exit
 
 Script done on Thursday 04 April 2019 10:31:51 PM IST
