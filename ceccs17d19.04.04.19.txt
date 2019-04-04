@@ -1,0 +1,68 @@
+Script started on Thursday 04 April 2019 09:10:19 PM IST
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ ssh cs17d19@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d19@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Mar 25 12:01:44 2019 from 192.168.0.186
+$ ls
+examples.desktop  file	result.txt  sample  sample1.txt  test
+$ cd fille  e
+$ pwd
+/home/cs17d19/file
+$ cd..
+-sh: 4: cd..: not found
+$ cd ..
+$ pwd
+/home/cs17d19
+$ mk d  dir t1  t1
+$ ls
+examples.desktop  file	result.txt  sample  sample1.txt  t1  test
+$ rm -r t1
+$ rm -r test
+$ rm -r sample
+$ rm result.txt
+$ rm sample1.tt xt
+$ ls
+examples.desktop  file
+$ cat > abc.txt
+helolo   lo..
+^Z[1] + Stopped                    cat 1>abc.txt
+$ cat > sample.txt
+^Z[2] + Stopped                    cat 1>sample.txt
+$ 
+$ rm sample.txt
+$ touch sample.txt
+$ ls
+abc.txt  examples.desktop  file  sample.txt
+$ cat abc.txt
+hello..
+$ cp -f abc.txt sample.txt
+$ cat sam[pl   ple.txt
+hello..
+$ grepppplpp     
+
+pppllll^[[3~;l   ^[[24~^[[24~                 kkqwe-sh: 24: grepp: not found
+$ $ wr       f grep he sample.txt
+-sh: 26: ppplllgrep: not found
+$ grep he sample.txt
+hello..
+$ e ls
+abc.txt  examples.desktop  file  sample.txt
+$ exit
+You have stopped jobs.
+$ exit
+Connection to 192.168.0.30 closed.
+]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thursday 04 April 2019 09:38:27 PM IST
