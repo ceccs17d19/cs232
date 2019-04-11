@@ -1,0 +1,40 @@
+Script started on Thursday 11 April 2019 11:27:11 AM IST
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt [K-gety ijns[K[K[K[K[K[K install pp[Kerl
+[sudo] password for cec: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+perl is already the newest version (5.22.1-9ubuntu0.6).
+The following packages were automatically installed and are no longer required:
+  libphysfs1 libsdl2-image-2.0-0 linux-headers-4.10.0-28 linux-headers-4.10.0-28-generic linux-headers-4.15.0-45
+  linux-headers-4.15.0-45-generic linux-image-4.10.0-28-generic linux-image-4.15.0-45-generic linux-image-extra-4.10.0-28-generic
+  linux-modules-4.15.0-45-generic linux-modules-extra-4.15.0-45-generic linux-signed-image-4.10.0-28-generic supertux-data
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ perl -v
+
+This is perl 5, version 22, subversion 1 (v5.22.1) built for x86_64-linux-gnu-thread-multi
+(with 73 registered patches, see perl -V for more detail)
+
+Copyright 1987-2015, Larry Wall
+
+Perl may be copied only under the terms of either the Artistic License or the
+GNU General Public License, which may be found in the Perl 5 source kit.
+
+Complete documentation for Perl, including FAQ lists, should be found on
+this system using "man perl" or "perldoc perl".  If you have access to the
+Internet, point your browser at http://www.perl.org/, the Perl Home Page.
+
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ perl sum.pl
+Can't open perl script "sum.pl": No such file or directory
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ cd Desktop
+]0;cec@cec-H110M-S2: ~/Desktop[01;32mcec@cec-H110M-S2[00m:[01;34m~/Desktop[00m$ cd [K[K[Kperl sum.pl
+hello!!! 
+Enter two numbers 
+4
+5
+sum is = 9
+]0;cec@cec-H110M-S2: ~/Desktop[01;32mcec@cec-H110M-S2[00m:[01;34m~/Desktop[00m$ exit
+exit
+
+Script done on Thursday 11 April 2019 11:35:59 AM IST
