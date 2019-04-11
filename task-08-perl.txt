@@ -1,9 +1,31 @@
 Script started on Thursday 11 April 2019 11:27:11 AM IST
 ]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt [K-gety ijns[K[K[K[K[K[K install pp[Kerl
 [sudo] password for cec: 
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
 perl is already the newest version (5.22.1-9ubuntu0.6).
 The following packages were automatically installed and are no longer required:
   libphysfs1 libsdl2-image-2.0-0 linux-headers-4.10.0-28 linux-headers-4.10.0-28-generic linux-headers-4.15.0-45
