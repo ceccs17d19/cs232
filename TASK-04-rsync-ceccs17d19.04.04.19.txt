@@ -1,40 +1,0 @@
-Script started on Thursday 04 April 2019 10:47:51 PM IST
-]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ rsync -zvh cs17d19@192.168.0.30:/home/cs17d19/abc.txt /home /Destop[K[A]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ rsync -zvh cs17d19@192.168.0.30:/home/cs17d19/abc.txt /home/Destop[K[K[K[K[K[Ks4d1?[K/Desktop
-.
-              |
-.  .    . .-. | .-..-. .--.--. .-.
- \  \  / (.-' |(  (   )|  |  |(.-'
-  `' `'   `--'` `-'`-' '  '  ` `--'
-cs17d19@192.168.0.30's password: 
-abc.txt
-
-sent 43 bytes  received 89 bytes  17.60 bytes/sec
-total size is 8  speedup is 0.06
-]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ rsync -zvh cs17d19@192.168.0.30:/home/cs17d19/abc.txt /home/s4d1/Desktop[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[C[1@ [K]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ rsync -zvh  cs17d19@192.168.0.30:/home/cs17d19/abc.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@s[1@a[1@m[1@p[1@l[1@e[1@.[1@t[1@x[1@t[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P [1P [1P [1P [1P [1P [1P [1P 
-.
-              |
-.  .    . .-. | .-..-. .--.--. .-.
- \  \  / (.-' |(  (   )|  |  |(.-'
-  `' `'   `--'` `-'`-' '  '  ` `--'
-cs17d19@192.168.0.30's password: 
-sample.txt
-
-sent 81 bytes  received 41 bytes  14.35 bytes/sec
-total size is 8  speedup is 0.07
-]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ sftp cs17d0[K19@192.168.0.30
-.
-              |
-.  .    . .-. | .-..-. .--.--. .-.
- \  \  / (.-' |(  (   )|  |  |(.-'
-  `' `'   `--'` `-'`-' '  '  ` `--'
-cs17d19@192.168.0.30's password: 
-Connected to 192.168.0.30.
-sftp> ls
-abc.txt             examples.desktop    file                result.txt          sample.txt          
-sftp> exity
-Invalid command.
-sftp> exit
-]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ exir[Kt
-exit
-
-Script done on Thursday 04 April 2019 10:58:38 PM IST
